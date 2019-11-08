@@ -54,8 +54,9 @@ public:
 		if (ray.t <= f || f <  Epsilon  ) return false;
 		
 		// --- PUT YOUR CODE HERE ---
-		// ray.u = ...
-		// ray.v = ...
+
+		ray.u = lambda;
+		ray.t = mue;
 
 		ray.t = f;
 		ray.hit = this;
